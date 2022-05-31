@@ -1,31 +1,39 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: sans-serif;
 }
+
 h1 {
     text-align: center;
     color: forestgreen;
     margin: 30px 0 50px;
 }
-.gallary{
+
+.gallery {
     margin: 10px 50px;
 }
-.gallary img{
+
+.gallery img {
     width: 230px;
     padding: 5px;
     filter: grayscale(100%);
     transition: 1s;
 }
-.gallary img:hover{
+
+.gallery img {
+    height: 178px;
+}
+
+.gallery img:hover {
     filter: grayscale(0);
     transform: scale(1.1);
 }
-img{
-    height: 178px;
-}
-.end4{
+
+.end4 {
     margin: 3.8rem;
+    text-align: center;
 }
